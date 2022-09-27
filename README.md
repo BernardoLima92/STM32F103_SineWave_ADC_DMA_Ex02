@@ -1,7 +1,7 @@
 # STM32F103_SineWave_ADC_DMA_Ex02
 Generating of a sinusoidal signal using PWM as a DAC, in parallel with ADC conversions., and in the last a UART transfer.
 
-Este exemplo é bastante ao mostrado no repositório STM32F103_SineWave_ADC_DMA_Ex01. A diferença é que ao final do código, dentro da função
+Este exemplo é bastante similar ao mostrado no repositório STM32F103_SineWave_ADC_DMA_Ex01. A diferença é que ao final do código, dentro da função
 void HAL_ADC_ConvCpltCallBack(ADC_HandleTypeDef* hadc) foi implementada uma rotina para a realização de uma transferência de dados via UART.
 
 Foi adicionado ao hardware montado no Protoboard um push-button conectado ao PB4. Esse botão foi usado para "ordenar" uma transferência de dados
