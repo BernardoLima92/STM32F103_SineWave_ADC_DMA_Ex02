@@ -46,7 +46,19 @@ via UART. Toda vez que o botão é pressionado, uma todo o buffer é transferido
 ![SW2_Code1](https://user-images.githubusercontent.com/114233216/192544564-58d31619-0f55-495d-aeeb-c10b2d4a54b5.png)
 
 
-8. Circuito Montado na Protoboard:
+8. Resultado lido na porta serial do PC
+
+![SW2_Termite](https://user-images.githubusercontent.com/114233216/192545442-94251a06-b6a4-422d-905c-8de5e9e67e27.png)
+
+Obs: Algum problema de configuração ou de código está fazendo com que esses [00] apareçam ai. Estou tentando resolver tal problema.
+
+
+9. Circuito Montado na Protoboard:
+
+![SW2_Circuito](https://user-images.githubusercontent.com/114233216/192547904-18b1a744-821f-4dfe-b2a7-d7d40f788e88.jpeg)
+
+
+
 
 
 
