@@ -42,6 +42,8 @@ via UART. Toda vez que o botão é pressionado, uma todo o buffer é transferido
 
 
 7. Parte Adicionada ao Código:
+![SW2_Code2](https://user-images.githubusercontent.com/114233216/192594347-824eaa07-05f1-450f-9f65-6b9a05db98c9.png)
+
 
 ![SW2_Code1](https://user-images.githubusercontent.com/114233216/192544564-58d31619-0f55-495d-aeeb-c10b2d4a54b5.png)
 
