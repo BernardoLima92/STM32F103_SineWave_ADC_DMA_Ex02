@@ -57,9 +57,15 @@ Obs: Algum problema de configuração ou de código está fazendo com que esses 
 
 ![SW2_Circuito](https://user-images.githubusercontent.com/114233216/192547904-18b1a744-821f-4dfe-b2a7-d7d40f788e88.jpeg)
 
+10 . Leitura Analógica do próprio sinal senoidal gerado na porta A0.
 
+![SW2_Termite_b](https://user-images.githubusercontent.com/114233216/192591924-925f141f-531a-470d-aa35-c764188f1d0e.png)
+![SW2_Grafico](https://user-images.githubusercontent.com/114233216/192591944-d6b572b6-f7f0-42cd-9b30-a31335d4d9f4.png)
 
+É possível perceber que há uma defasagem. A primeira leitura analógica não ocorreu no primeiro ponto da senoide. Na tabela de seno feita no código
+O primeiro valor é 127, em seguida os valores crescem até 255. Ou seja, a primeira leitura analógica deveria ler esse valor inicial, que em termos de bits
+seria representado por 2048 (aproximadamente). Isso deve estar acontecendo devido à diferença de tempo para se iniciar os dois TIMERs.
 
-
-
-
+Aparentemente, há uma defasagem de 8 pontos do sinal. É como se a primeira leitura analógica fosse referente ao resultado imposto pelo oitavo ponto da tabela de
+senos. Como 128 pontos representam 360°, então 8 pontos representam 22,5°.
+Há uma defasagem fixa de aproximadamente 22,5° Entre geração do sinal e leitura.
